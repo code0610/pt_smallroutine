@@ -1,0 +1,11 @@
+<!-- 拼图页面 -->
+<view class='joinImage'>
+  
+  <view class='joinImage_cont'>
+      <view catchtap='setImg' class='joinImage_cont_item' wx:for="{{ imgPosition }}" wx:for-item="itemIndex"  style='background-image:url({{myImgs}});background-position:{{itemIndex}};' data-imgId="{{ index }}"></view>
+  </view>
+  <view class='joinImage_getImg'>
+      <button type="primary" catchtap='getImages2'>获取图片</button>
+      <!-- <image src="{{ myImgs }}"/> -->
+  </view>
+</view>

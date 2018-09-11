@@ -1,0 +1,25 @@
+.joinImage_cont{
+  width: 700rpx;
+  margin: 0 auto;
+  height: 1000rpx;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rpx;
+}
+.joinImage_cont_item{
+  width: 32%;
+  height: 320rpx;
+  /* background-color: yellow; */
+  background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536573416201&di=b8948ee2f330e87475dd266c02f1e718&imgtype=0&src=http%3A%2F%2Fpic27.photophoto.cn%2F20130402%2F0034034401816783_b.jpg");
+  background-repeat: no-repeat;
+  border: solid 1rpx gainsboro;
+  background-size: 700rpx 1000rpx;
+}
+
+.joinImage_getImg button{
+  width: 700rpx;
+  margin: 0 auto;
+}
